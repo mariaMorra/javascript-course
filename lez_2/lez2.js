@@ -27,3 +27,10 @@ NB do NOT BASE YOUR CODE ON HOISTING
 -> MANTIENI NORMALE FORMA (PRIMA LA CREAZIONE DELLE FUNZ ECC POI L'ESECUZIONE) 
 */
 
+/*
+conceptual aside 3: undefined
+all variables are initially hoisted wt value "undefined"
+->special value for js
+
+*/
+

@@ -58,5 +58,12 @@ each call of a function adds a new execution context is created and placed on to
 ->the top one is the executing one
 ->and function execution has the same passages (create & hoist functions and vars, execute) and once done it
 popped off 
+*/
+
+/*
+variable environment:
+where the var lives and how they relate to each other in MEMORY
+each exec context has it's own var enviroment
+=> if u declare it as var then it's defined inside the exec cntext
 
 */

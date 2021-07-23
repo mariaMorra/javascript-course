@@ -1,0 +1,19 @@
+/*
+types and js:
+any variable can hold any type of data
+dynamic typing: we dont tell the jsengine what type of data a var contains
+->it figures it out as code is run
+_>any moment the type of a var can change
+static typing: i say what type of thing is inside a var and it can hold values of that type alone (and subtypes of it obv if objoriented)
+primitive types: there are 6; type of data that represents a single value (unlike an obj wich is made of name value pairs)
+    >undefined= represents lack of existence
+    >null= represents lack of existence but YOU can use it!
+    >boolean= true/false
+    >number= any number, it's a floating point number
+    >string= sequence of characters
+    >symbol= used in ES6 (next version of js) u can ignore it for now
+*/
+/*
+operators: a special function that is syntactically (written) differently
+
+*/

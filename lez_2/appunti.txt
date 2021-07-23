@@ -92,6 +92,5 @@ jsengine creates the context of the funs that are involved
 =>the event queue will not be PROCESSED UNTIL THE EXEC STACK IS EMPTY!!!
 the browser is async placing events in the queue,
 jsengine executes synch all the code, when the stack is empty it looks at the even queue and acts on it
-
-
+-> all the events themselves are processed in first in first out !!!
 */

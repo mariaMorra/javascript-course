@@ -33,4 +33,16 @@ coercion: converting a value to 1 type to another
 exemple: if i try to use op on 2 vals of different types -> jsengine tries to change 1 of the two to the other
 1+"2" = both are treated as strings => concat instead of sum
 "best guess" = choice made to decide what to do wt different types on a operator operation
+NB coercion happens to equality operator == GOTTA USE === !!!
+coercion can make code difficult to interpret, understand, debug and ANTICIPATE ecc
+use STRICT equality and inequality in any case that requires comparison, use the other only when yo DO WANT COERCION!!!!
+NB from coercion i can write "if(a)"  => undefined or null is coerced to false, else to true => USABILE X CONTROLLARE ESISTENZA DI VARIABILI
+WITH ONE IMPORTANT EXCEPTION 0 is converted to false! but a=0 DOES EXIST 
+BEST PRACTICE: if( a || a === 0)
+*/
+
+/*
+default values: you can give default values to parameters to make sure that the functions have the info they need
+old way of doing it is to use || wich returns the value of the first operad ANY TYPE that can be converted to true 
+NOT true or false but the whole value
 */

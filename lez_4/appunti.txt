@@ -1,0 +1,63 @@
+/*
+OBJECT AND FUNCTIONS
+the 2 are +++ RELATED, almost the same thing
+*/
+
+/*
+object and the dot "." (operator)
+an obj can have properties and methods
+method= function connected to an object
+Obj is in memory and has references to the addresses/space in memory where it's "parts" live
+to access the parts themselves
+    >x proprieta: 
+        -computed member access operator : [] -> to set and access properties
+        -object access operator (?) : . -> to set and access any part (?) 
+    >x metodi: 
+        -object access operator (?) : . -> to set and access any part (?) 
+(prefer the . operator unless u need dynamic strings to access the searched property)
+NB if u use it to CREATE a property be carefull of nesting
+1) crea l'ggetto base
+2) crea proprietà base
+3) crea proprietà di oggetto proprietà
+esempio persona.indirizzo.strada funziona solo se persona.indirizzo è GIA' creata con {} o new Object or wtvr else engine gets confused and gives back error
+*/
+
+/*
+OBJECT AND OBJECT LITERALS
+an object created wt ={...} is an object literal
+can be used anywhere, even as a parameter in a function call
+*/
+
+/*
+framework aside : faking namespaces
+namespace=container for variables and functions used to keep them separate from other wt the same name
+but js does NOT have namespaces
+=> objects can be used to simulate namespaces =)
+*/
+
+/*
+object notation vs object literal
+json HAS VERY SIMILAR SYNTAX but it expects all keys to be strings (wt "")
+i can turn a normal obj lit into a valid json and all json is valid js obj:
+    =>(JSON.stringify(objectLiteral)); // traduce da oggetto a string
+    =>(JSON.stringify(jsonObjectLiteral)); // traduce da json a string
+    =>var jsonvalue = JSON.parse('{"firstname" : "saklè","isAProgrammer" : false}'); //traduce da string a json / oggetto js
+*/
+
+/*
+js concept: first class functions => FUNCTIONS ARE OBJECTS
+first class functions: everything u CAN do wt other types u can do with FUNCTIONS: 
+    >u can assign it to variables, 
+    >pass them around as a parameter, 
+    >create them on the fly ecc
+a function is a special type of object, can have:
+-associated primitives
+-ass. objects
+-ass. functions
+but also:
+-has name but it's optional, can be anonymous
+-can have code (the code you write) => the code u write is a property of the function
+it is NOT the function itself
+->code is invocable, it can be run and create an exec context ecc
+
+*/

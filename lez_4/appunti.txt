@@ -77,5 +77,8 @@ talking about variables
     ->if i pass it by value then i get an new COPY
     ->if i pass by reference i have the address where the first variable hosts it's own value, we do NOT have a new location in memory
 >if primitive type passing is done by value most usually
->if object normal passing is not by value, but by reference
+>if object normal passing is not by value, but by reference (shallow copy, we get two ALIASES TO THE SAME OBJECT)
+*/
+
+/*
 */

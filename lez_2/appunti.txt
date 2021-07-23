@@ -66,4 +66,13 @@ where the var lives and how they relate to each other in MEMORY
 each exec context has it's own var enviroment
 => if u declare it as var then it's defined inside the exec cntext
 
+scope chain:
+if a function has a ref to a var defined by the GLOBAL CONTEXT/"parent context" (where the function was defined/written NOT where it was called) 
+    -> it can see the var that the other created
+if a function has a ref to a var defined by any other previous context -> it cannot!!!
+why? js does not look at the single exec context that is operating
+-> all contextes have a ref to it's OUTER ENVIRONMENT wich usually is the LEXICAL ENVIRONMENT
+which means= where it's been defined!!! (usually in the global context, or the class context i guess, lamdbdas excluded? those probs are defined where they are also called? idk)
+this act of searching for var's scope is called "scope(=where i can access var) chain(=links of references for the var)" 
+
 */

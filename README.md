@@ -11,3 +11,4 @@
 4. lez_2/app.js primo script creato, per prima parte video (hoisting of vars and functions)
 5. lez_2/app1.js secondo script creato (su undefined, nb never put the value undefined yourself!)
 6. lez_2/app2.js terzo script creato (su var environment)
+7. lez_2/app3.js quarto script creato (su 

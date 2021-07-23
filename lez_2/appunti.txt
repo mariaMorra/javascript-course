@@ -76,3 +76,22 @@ which means= where it's been defined!!! (usually in the global context, or the c
 this act of searching for var's scope is called "scope(=where i can access var) chain(=links of references for the var)" 
 (obvs we can have many "links" to traverse and we can have b created in a created in global and have b use something defined in global even if it's base is only a )
 */
+
+/*
+Scope= where a variable is available in your code AND IF IT'S TRULY THE SAME VAR OR A NEW COPY (if i call a fun 2 times and it contains var foo the 2 foo are DIFFERENT VARS)
+ecmascript EX6 introduces let -> can be used for BLOCK SCOPING => the var is in memory but will not be filled until it is encountered in the code and that line is run
+let is only available only in the block it's declared in, but scope chain still works (????); 
+in a for var makes it so that you are always using the same variable, let instead makes a new one in memory every cycle
+
+Asynchornous= more than one at a time BUT JS IS SYNCHRONOUS
+->to handle async the JAVASCRIPT ENGINE, who works wt the browser which is doing other stuff??
+in js engine there is the exec context list BUT ALSO the EVENT QUEUE
+-> any event (clicks, http requests ecc) that my funs need is in the QUEUE
+periodically that queue is read => if any events that my code needs are there then 
+jsengine creates the context of the funs that are involved
+=>the event queue will not be PROCESSED UNTIL THE EXEC STACK IS EMPTY!!!
+the browser is async placing events in the queue,
+jsengine executes synch all the code, when the stack is empty it looks at the even queue and acts on it
+
+
+*/

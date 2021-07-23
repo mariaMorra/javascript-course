@@ -15,5 +15,22 @@ primitive types: there are 6; type of data that represents a single value (unlik
 */
 /*
 operators: a special function that is syntactically (written) differently
+wt infix, prefix, postfix notations
+operators can be 
+    >numeric
+    >boolean
+    >x stringhe
+in base al tipo (corrente) dei dati su cui operano
+they are governed by 
+->operator precedence: wich op gets called first if there's more than one on 1 line of code based in their order of their precedence (* has greater prec than +) 
+->op. associativity: what order op fun are called in left to right or right to left when ops have SAME precedence (if i have a + b + c x esempio or a * b / c)
+exemple a + b * c === a + (b*c)
+most op return a value, even if they also do a change to 1 of operators esempio => a=b returns the value of b and makes a have the same value as b
+*/
 
+/*
+coercion: converting a value to 1 type to another 
+exemple: if i try to use op on 2 vals of different types -> jsengine tries to change 1 of the two to the other
+1+"2" = both are treated as strings => concat instead of sum
+"best guess" = choice made to decide what to do wt different types on a operator operation
 */

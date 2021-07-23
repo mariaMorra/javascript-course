@@ -25,3 +25,4 @@
 14. lez_4/index.html file usato per lanciare scripts su browser
 15. lez_4/app.js decimo script creato (su objects)
 16. lez_4/app1.js undicesimo script creato (su functions as objects)
+17. lez_4/app2.js dodicesimo script creato (su value and reference passing of variables)

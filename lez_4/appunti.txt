@@ -59,5 +59,23 @@ but also:
 -can have code (the code you write) => the code u write is a property of the function
 it is NOT the function itself
 ->code is invocable, it can be run and create an exec context ecc
+*/
 
+/*
+function statements and functions expressions
+expressions: a unit of code that results in a value, not necessarily saved in a var;
+statement: unit of code that does NOT return a value, it's just an action in the code
+a function can be statements or values, 
+the 2 can have the same code, but:
+>the first can be called from anywhere in the parent, it is created but has no true home
+>the second results in an object being created, the function itself, that can be assigned to a variable BUT CANNOT BE HOISTED!
+*/
+
+/*
+"by value VS by reference"
+talking about variables
+    ->if i pass it by value then i get an new COPY
+    ->if i pass by reference i have the address where the first variable hosts it's own value, we do NOT have a new location in memory
+>if primitive type passing is done by value most usually
+>if object normal passing is not by value, but by reference
 */

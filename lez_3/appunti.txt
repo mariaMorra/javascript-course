@@ -46,3 +46,11 @@ default values: you can give default values to parameters to make sure that the 
 old way of doing it is to use || wich returns the value of the first operad ANY TYPE that can be converted to true 
 NOT true or false but the whole value
 */
+
+/*
+framework aside
+Default values in libraries and frameworks
+se 1 nome var è in + lib l'ultima vince
+unless u use || => THIS IS USED IN FRAMEWORKS AND LIBS!!!
+
+*/

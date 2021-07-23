@@ -23,4 +23,5 @@
 14. lez_3/lib2.js nono script creato (PER lez_3/app2.js)
 13. lez_4/appunti.txt contiene appunti relativi a lezione
 14. lez_4/index.html file usato per lanciare scripts su browser
-15. lez_4/app.js ottavo script creato (su )
+15. lez_4/app.js decimo script creato (su objects)
+16. lez_4/app1.js undicesimo script creato (su functions as objects)

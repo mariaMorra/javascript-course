@@ -15,4 +15,4 @@
 7. lez_2/app3.js quarto script creato (su introduzione async)
 8. lez_3/appunti.txt contiene appunti relativi a lezione
 9. lez_3/index.html file usato per lanciare scripts su browser
-10. lez_3/app.js quinto script creato (su )
+10. lez_3/app.js quinto script creato (su coercion)

@@ -26,3 +26,6 @@
 15. lez_4/app.js decimo script creato (su objects)
 16. lez_4/app1.js undicesimo script creato (su functions as objects)
 17. lez_4/app2.js dodicesimo script creato (su value and reference passing of variables)
+18. lez_4/app3 tredicesimo script creato (sul valore di this in diversi contesti di esecuzione)
+19. lez_4/app4 quattordicesimo script creato (sugli array)
+20. lez_4/app4 quindicesimo script creato (su IIFE) ?

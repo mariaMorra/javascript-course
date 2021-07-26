@@ -81,4 +81,77 @@ talking about variables
 */
 
 /*
+the creation phase, happens whan a function's code is invoked
+and results in the creation of an EXECUTION CONTEXT, 
+in which we get a:
+>variable environment
+>reference to outer (lexical) environment
+>variable "this" => points to diffenent object depending on HOW the function is called
+    ->if it's on a browser it's gonna be the global object (window) qualora
+        -io scriva console.log(this)
+        -io chiami una funzione (PRIVA DI OGGETTO DI INVOCAZIONE)
+        -qualora una funzione sia creata INTERNAMENTE AD UN METODO DI UN OGGETTO (inatteso!!!) [it's called an INTERNAL FUNCTION]
+    ->the object (invocation object) that defines the method (if it's referring to a method instead of a function)
+how to check what THIS points to? 
+1) nel metodo di livello zero dell'oggetto(o forse si può fare anche nell'oggetto)
+define var self=this
+2) usa self in qualsiasi caso di necessità al posto di this. in modo esplicito
+*/
+
+/*
+arrays= collection of objects
+can be primitive, objects, functions ecc
+to get to fields/methods(or functions) 
+use: nomearr[index].field
+     nomearr[index].methodname()/() for simple (anonymous functions)
+*/
+/*
+arguments & spread (NEW, substitues arguments)
+at creation of execution context from invocation of function
+we get
+(already known)
+->variable environment
+->this
+->outer env reference
+(NEW)
+->"arguments"= all values u pass to function u r calling
+(parameters you pass ot a function)
+as we know we can call wtout passing and wtout default values (sets to undefined)
+nb can see all the params of a functions in arguments (!!!)
+-> console.log(arguments)
+is LIKE an array  
+*/
+/*
+function overloading
+js cannot have function overloading (bc fun are OBJECTS)
+but you can use a pattern LIKE
+specificFun1(a, b){... generalFun(a, b, x)}
+specificFun2(a1, b1){... generalFun(a, b, y)}
+generalFun(a, b, c){...switch(c){case x, case y}}
+
+*/
+/*
+syntax parsers
+reads code to see if it's valid and sees what you are doing
+*/
+/*
+dangerous nb:
+put in the damn semicolons and be careful of whitespace (on return for exemple) 
+*/
+/*
+iife: Immediately Invoked Function expressions
+we can create functions
+as statements (normal declaration)
+as expressions (anonymous function literal placed in var)
+i can invoke it later wt name();
+OR i can write:
+var varname = fun(pars){
+    ...
+}(vals); -> () means create and execute immediately !!! -> var contains the result
+or i can do wtout the var:
+(function(pars){...}(vals));
+or
+(function(pars){...})(vals);
+or i can use lambdas
+() ->{ ... }
 */

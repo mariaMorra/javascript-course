@@ -183,10 +183,33 @@ if a outer var changes val in time => they will find the LAST value it got
 (uses value last in memory obvs) MOST SEEN WT FOR LOOPS
 
 "free variable" = any variable outside a function to wich i have access to (exemple: outer variables)
+
+CALLBACKS AND CLOSURES
+events, settimers, calbacks USE CLOSURES!!!
+callback function= function given to another fun to be run once the other function is finished
+-> the fun u call calls back by calling the fun u give it when it finishes
 */
 
 /*
 FUNCTION FACTORIES
 >pattern otherwise impossible
 >powerful and flexible pattern
+=> i can create a core of functions wt similar objectivesbut easy to call
+*/
+
+/*
+call(), apply() and bind()
+they are used to control what "this" contains
+all functions have:
+-name (optional)
+-code invocable
+-properties and methods can be added
+-the functions  
+    >call(obj, par)= esegue funzione usando obj come this e par come parametri della funzione
+    >apply(obj, [par]) = as cll bure REQUIRES an array for pars
+    >bind(obj)=crea copia di funzione, a cui assegna obj come valore di "this" per funzione fun: fun.bind(obj)
+WHEN are theese used?
+->function borrowing to apply a method on an object differetthan the one that defined the method
+    ("best practice" new obj should have same properties (wt same properties names) as the original obj)
+->function currying to add constraint to base function on pars
 */

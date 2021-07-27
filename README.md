@@ -29,4 +29,6 @@
 20. lez_4/app3 tredicesimo script creato (sul valore di this in diversi contesti di esecuzione)
 21. lez_4/app4 quattordicesimo script creato (sugli array)
 22. lez_4/app5/app5.js + lez_4/app5/greet.js quindicesimo e sedicesimo script creato (su IIFE e come evitare problemi con nomi)
-23. lez_4/app6.js diciassettesimo scrpit creato (su closures)
+23. lez_4/app6.js diciassettesimo script creato (su closures)
+24. lez_4/app7.js diciassettesimo script creato (su functions factories)
+25. lez_4/app8.js diciottesimo script creato (su bind, call and apply)

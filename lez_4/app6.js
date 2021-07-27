@@ -117,3 +117,35 @@ var fsj = buildFunctionsWtLet();
 for(var i=0; i<3; i++){
     fsj[i](); // they are NOT functions nomore
 }
+
+//calbacks use closure to get their info
+console.log("------------------------");
+console.log("------------------------");
+function sayHiLater(){
+    var greeting="howdy";
+    setTimeout(
+        function(){
+            console.log(greeting);
+        }
+    , 3000);
+    
+}
+sayHiLater();
+
+//function wt callback
+console.log("------------------------");
+console.log("------------------------");
+console.log("------------------------");
+function tellMeWhenDone(callback){
+    var a = 1000;
+    var b = 2000;
+    callback(); // runs a fun i give it
+}
+
+tellMeWhenDone(function(){
+    console.log("i am done");
+});
+
+tellMeWhenDone(function(){
+    console.log("all done...");
+});

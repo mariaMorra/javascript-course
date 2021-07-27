@@ -144,14 +144,26 @@ we can create functions
 as statements (normal declaration)
 as expressions (anonymous function literal placed in var)
 i can invoke it later wt name();
+
 OR i can write:
 var varname = fun(pars){
     ...
 }(vals); -> () means create and execute immediately !!! -> var contains the result
+
 or i can do wtout the var:
 (function(pars){...}(vals));
+
 or
 (function(pars){...})(vals);
+
 or i can use lambdas
 () ->{ ... }
+
+this is useful bk each var is inside the context
+of the function and NOT in the global scope
+=> no possible ambiguity of WHICH variable to use
+two var wt same name never meet if we use iife 
+=> different contexts that are NOT global will be indipendent
+
+
 */

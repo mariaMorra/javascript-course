@@ -21,11 +21,11 @@
 12. lez_3/app2.js settimo script creato (su libraries and default values)
 13. lez_3/lib1.js ottavo script creato (PER lez_3/app2.js)
 14. lez_3/lib2.js nono script creato (PER lez_3/app2.js)
-13. lez_4/appunti.txt contiene appunti relativi a lezione
-14. lez_4/index.html file usato per lanciare scripts su browser
-15. lez_4/app.js decimo script creato (su objects)
-16. lez_4/app1.js undicesimo script creato (su functions as objects)
-17. lez_4/app2.js dodicesimo script creato (su value and reference passing of variables)
-18. lez_4/app3 tredicesimo script creato (sul valore di this in diversi contesti di esecuzione)
-19. lez_4/app4 quattordicesimo script creato (sugli array)
-20. lez_4/app4 quindicesimo script creato (su IIFE) ?
+15. lez_4/appunti.txt contiene appunti relativi a lezione
+16. lez_4/index.html file usato per lanciare scripts su browser
+17. lez_4/app.js decimo script creato (su objects)
+18. lez_4/app1.js undicesimo script creato (su functions as objects)
+19. lez_4/app2.js dodicesimo script creato (su value and reference passing of variables)
+20. lez_4/app3 tredicesimo script creato (sul valore di this in diversi contesti di esecuzione)
+21. lez_4/app4 quattordicesimo script creato (sugli array)
+22. lez_4/app5/app5.js + lez_4/app5/greet.js quindicesimo e sedicesimo script creato (su IIFE e come evitare problemi con nomi)

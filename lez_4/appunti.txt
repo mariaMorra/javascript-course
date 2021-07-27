@@ -164,6 +164,29 @@ of the function and NOT in the global scope
 => no possible ambiguity of WHICH variable to use
 two var wt same name never meet if we use iife 
 => different contexts that are NOT global will be indipendent
+*/
 
+/*
+understanding closures
+a function CAN  return another function and i can call the returned function
+wt fun()(); => exec the returned function
 
+this is because of closures
+the context of parent function is destroyed but the memoryspace of the RETURNED value is still filled wt the child function
+=>but it uses also (possibly) pars of the parent function, how it works?
+child has ref to parent context  => the scopechain still find 
+we say that :  "exec context is CLOSED IN his outher variables" even when the context is gone
+=>it's a feature of the js programming lenguage, we dont have to worry abouth outer variables ecc, they are going to be there
+
+NB it can have "unexpected" consequences if u r not careful
+if a outer var changes val in time => they will find the LAST value it got
+(uses value last in memory obvs) MOST SEEN WT FOR LOOPS
+
+"free variable" = any variable outside a function to wich i have access to (exemple: outer variables)
+*/
+
+/*
+FUNCTION FACTORIES
+>pattern otherwise impossible
+>powerful and flexible pattern
 */

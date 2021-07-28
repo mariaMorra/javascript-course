@@ -213,3 +213,14 @@ WHEN are theese used?
     ("best practice" new obj should have same properties (wt same properties names) as the original obj)
 ->function currying to add constraint to base function on pars
 */
+
+/*
+FUNCTIONAL PROGRAMMING
+js is similar to lisp, schema ecc functional progrmming lenguage
+"=>new way of thinking"
+using first class functions concepts to help us do the work.
+NB i can use ANY function inside another, even if number of paramethers is different, we just need to 
+ise bind and function currying
+best if small ones do not MUTATE data, or if most do not mutate data at all, MAKE NEW DATA
+
+*/

@@ -32,3 +32,5 @@
 23. lez_4/app6.js diciassettesimo script creato (su closures)
 24. lez_4/app7.js diciassettesimo script creato (su functions factories)
 25. lez_4/app8.js diciottesimo script creato (su bind, call and apply)
+26. lez_4/app9.js diciannovesimo script creato (su functional programming e libreria "underscore")
+27. lez_4/esmpioConVecchiaVersioneUnderscoreLib contiene tutti i file relativi a esempio su passata versione della libreria underscore.js (https://underscorejs.org/)

@@ -5,6 +5,8 @@
 2. lez_2 contiene materiale di lezione 2
 3. lez_3 contiene materiale di lezione 3
 4. lez_4 contiene materiale di lezione 4
+5. lez_5 contiene materiale di lezione 5
+6. lez_6 contiene materiale di lezione 6
 
 ## files
 1. lez_1/appunti.txt contiene appunti relativi a lezione
@@ -34,3 +36,5 @@
 25. lez_4/app8.js diciottesimo script creato (su bind, call and apply)
 26. lez_4/app9.js diciannovesimo script creato (su functional programming e libreria "underscore")
 27. lez_4/esmpioConVecchiaVersioneUnderscoreLib contiene tutti i file relativi a esempio su passata versione della libreria underscore.js (https://underscorejs.org/)
+28. lex_5/app1 contiene files relativi a "UnderstandingThePrototype"
+29. lez_5/app3 contiene i file relativi a "Reflection & Extend"

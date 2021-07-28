@@ -1,0 +1,36 @@
+/*
+OBJECT ORIENTED JS AND PROTOTYPAL INHERITANCE
+inheritance: 1 obj gets access to the properties and metods of another obj
+classical ineritance: best known and popular, for long time (like java ecc?)
+    might be verbose, might be complicated
+prototypal inheritance: simpler, flexible, extensible and easy to understand
+    it's very good for JS
+*/
+/*
+prototype: all obj in js have a prototype property called "proto"
+    ->that's an object itself wt it's own properties
+    AND PROTO CAN HAVE A PROTO ITSELF! (recursive)
+    we can search for obj properties on the proto and on it's proto and it's proto ecc and if ANY has it then it's like obj has it
+prototipe chain: obj ->proto ->proto ->proto ecc
+NB obj1 and obj2 can share a proto (have the same reference)
+(u can write obj.property eveni if property is of proto; instead of (obj.proto.property))
+HOW TO SET THE PROPERTY?
+(NB tecnique to never be used: access directly the proto property wt obj.__proto__; it can SLOW performance ++++)
+*/
+
+/*
+everithing in js is an obj and (as consequence) everithing has a proto
+NOTABLE EXCEPTION: base object
+    =>__proto__ of an object a={} is Object{} 
+    =>for function it's function Empty(){} 
+    =>[] per arrays
+THEY HAVE METHODS AND PROPERTYES THAT WE HAVE USED :
+apply(), bind(), length, push() ecc x esempio
+*/
+
+/*
+reflection and extend
+(extend basato su reflection)
+reflection: an obj cna look at itself listing and changing it's properties and methods
+
+*/

@@ -9,4 +9,49 @@ it's a NORMAL function used to construct objs the empty obj created IS RETURNED 
 
 /*
 how to set prototype wt function consturctors?
+it does in automatic BUT IT'S NOT Object{} but NameOfFunction{} (esempio: function Person(){...} => Person{})
+fuctions have a prototype property that is USED ONLY BY THE new OPERATOR, when fun its used as constructor function
+    Fun.prototype.addedCharacteristic => adds addedCharacteristic to obj created's prototype
+    NB: it's more efficient to put methods on prototype while the properties shold go on the object itself
+    it's more efficient
 */
+
+/*
+nb function constructors are STILL functions 0> it will try to execute it wtont new 
+but since they DONT EXPLICITLY return the obj it LEAVES UNDEFINED INSIDE THE OBJ
+CONVENTION: FIRST LETTER = CAPITAL LETTER
+*/
+
+/*
+THERE ARE BUILT IN FUNCTIONS CONSTRUCTOR IN JS:
+var a = new Number
+new String
+ecc 
+u can add stuff to protoype of it ! JUST BE CAREFULL NOT TO USE A NAME THAT 'S ALREADY IN OBJECT TYPE
+CAN BE DICEY THO
+A = 3 // primitive
+B = new Number(3) // obj wrapping a primitive
+a==b true; a===b false !!!
+*/
+
+/*
+arrays and for(X in y)
+we used it for cycling trough obj; can be used on arrays as well, as they are objs  
+BUT if we add something to .prototype of Array => it WILL iterate on those as well !!! as iff part of the array elements
+*/
+
+/*
+js has no class inheritance, only protoypal inheritance
+-> other than obj literals and function constructors we can use object.create
+polyfill: code that adds a feature wich the engine MAY lack
+for older engines/browsers => check if the feature is present && if not add the feature urself 
+*/
+
+/*
+es6 (new js version) introduces classes
+=>constructor somiglia a function constructors
+=>it's called a class BUT it's still an object
+use "extends" to set a class prototype to another class 
+*/
+
+

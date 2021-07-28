@@ -32,5 +32,4 @@ apply(), bind(), length, push() ecc x esempio
 reflection and extend
 (extend basato su reflection)
 reflection: an obj cna look at itself listing and changing it's properties and methods
-
 */

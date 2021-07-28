@@ -39,3 +39,7 @@
 28. lex_5/app1 contiene files relativi a "UnderstandingThePrototype"
 29. lez_5/app2 contiene i file relativi a "Reflection & Extend"
 30. lez_6/app1 contiene file relativi a "Function Constructors New History"
+31. lez_6/app2 contiene file relativi a "function constructors and prototype"
+32. lez_6/app3 contiene file relativi a "built in function constructors"
+33. lez_6/app4 contiene file relativi a "object.create && pure prototypal inheritance"
+34. lez_6/app5 contiene file relativi a "classes"

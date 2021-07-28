@@ -7,6 +7,9 @@
 4. lez_4 contiene materiale di lezione 4
 5. lez_5 contiene materiale di lezione 5
 6. lez_6 contiene materiale di lezione 6
+7. lez_7 contiene materiale di lezione 7
+7. lez_8 contiene materiale di lezione 8
+
 
 ## files
 1. lez_1/appunti.txt contiene appunti relativi a lezione
@@ -46,4 +49,6 @@
 35. lez_7/app1 contiene file relativi a "inizalization"
 36. lez_7/app2 contiene file relativi a "typeof instanceof"
 37. lez_7/app3 contiene file relativi a "strictmmode"
-38. lez_8/app1 contiene file relativi a ""
+38. lez_8/app1 contiene file relativi a "deep dive in jquery"
+39. lez_8/app contiene file relativi a ""
+

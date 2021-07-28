@@ -1,0 +1,9 @@
+/*
+github good plac to learn
+-> explore -> see all -> frot end js frameworks
+*/
+
+/*
+method chaining= calling 1 methof adfter another, each method affects the parent object
+esempio: obj.f1().f2() both work on obj 
+*/

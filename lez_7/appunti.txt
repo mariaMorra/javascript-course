@@ -1,0 +1,17 @@
+/*
+initialization
+can be done many ways, careful of syntax tho, do not lose chars like " : ; , - ( ) [ ] { } ecc 
+*/
+
+/*
+typeof operator returns type of var on wich used
+NB most things are object, if not thety are functions, if not they are primitives or undefined
+nb null is actually an object, and so is an array BUT IF U LOOK AT IT'S PROTOTYPE WT Object.prototype.toString.call(d) that is an OBJECT ARRAY
+*/
+
+/*
+use strict;
+su prima riga x assicurare maggiore sicurezza
+o come prima riga into a function! to make it so that the FUNCTION alone is strict
+NB: can have bad result if other files u use dont use it ...
+*/

@@ -37,4 +37,5 @@
 26. lez_4/app9.js diciannovesimo script creato (su functional programming e libreria "underscore")
 27. lez_4/esmpioConVecchiaVersioneUnderscoreLib contiene tutti i file relativi a esempio su passata versione della libreria underscore.js (https://underscorejs.org/)
 28. lex_5/app1 contiene files relativi a "UnderstandingThePrototype"
-29. lez_5/app3 contiene i file relativi a "Reflection & Extend"
+29. lez_5/app2 contiene i file relativi a "Reflection & Extend"
+30. lez_6/app1 contiene file relativi a "Function Constructors New History"

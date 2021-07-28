@@ -1,0 +1,12 @@
+/*
+function constructors && new keyword 
+new is keyword is from java in js is an OPERATOR, and classes are a concept that js lacked
+=> used function instead of class to define an obj and that was called a function constructor
+(old, not the best method)
+untill END OF FUNCTION "this" of it's exec context contains "empty object" to wich we can add stuff to; 
+it's a NORMAL function used to construct objs the empty obj created IS RETURNED AUTOMATICALLY WTOUT AN EXPLICIT RETURN
+*/
+
+/*
+how to set prototype wt function consturctors?
+*/

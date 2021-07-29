@@ -50,5 +50,7 @@
 36. lez_7/app2 contiene file relativi a "typeof instanceof"
 37. lez_7/app3 contiene file relativi a "strictmmode"
 38. lez_8/app1 contiene file relativi a "deep dive in jquery"
-39. lez_8/app contiene file relativi a ""
+39. lez_9/app1 contiene i file del framework Greetr versione mia
+40. lez_9/app2 contiene i file del framework Greetr versione prof
+
 

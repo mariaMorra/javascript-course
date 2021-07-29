@@ -1,0 +1,12 @@
+/*
+creating a library: greetr
+objective: give greetings 
+    ->given name surname and optional lenguage it generates formal and informal greetings
+    ->supports eng and esp
+    ->reusable il other code
+    ->easy to type "G&()" structure to use it
+    ->support jQuery to get WHERE our result is shown
+*/
+/*mostly look at code i guess*/
+/*nb to make methods chainable u gotte return this (meaning the invocation obj itself is returned so we can use it to tho MORE calls*/
+/*how to add suport to another framework/lib*/
